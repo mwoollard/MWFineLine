@@ -7,43 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CAE25241C79EE8C00D268D9 /* MWFineLine.h in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE25231C79EE8C00D268D9 /* MWFineLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CAE252B1C79EE8D00D268D9 /* MWFineLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAE25201C79EE8C00D268D9 /* MWFineLine.framework */; };
-		2CAE25301C79EE8D00D268D9 /* MWFineLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE252F1C79EE8D00D268D9 /* MWFineLineTests.swift */; };
+		2CAE25431C79FBDC00D268D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE25421C79FBDC00D268D9 /* AppDelegate.swift */; };
+		2CAE25451C79FBDC00D268D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE25441C79FBDC00D268D9 /* ViewController.swift */; };
+		2CAE25481C79FBDC00D268D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE25461C79FBDC00D268D9 /* Main.storyboard */; };
+		2CAE254A1C79FBDC00D268D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE25491C79FBDC00D268D9 /* Assets.xcassets */; };
+		2CAE254D1C79FBDC00D268D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE254B1C79FBDC00D268D9 /* LaunchScreen.storyboard */; };
+		2CAE25521C79FC0200D268D9 /* MWFineLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE253A1C79EE9C00D268D9 /* MWFineLine.swift */; };
+		2CAE25561C7A0A3500D268D9 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE25531C7A0A3500D268D9 /* .travis.yml */; };
+		2CAE25571C7A0A3500D268D9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2CAE25541C7A0A3500D268D9 /* LICENSE */; };
+		2CAE25581C7A0A3500D268D9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE25551C7A0A3500D268D9 /* README.md */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2CAE252C1C79EE8D00D268D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2CAE25171C79EE8C00D268D9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CAE251F1C79EE8C00D268D9;
-			remoteInfo = MWFineLine;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2CAE25201C79EE8C00D268D9 /* MWFineLine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MWFineLine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CAE25231C79EE8C00D268D9 /* MWFineLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = MWFineLine.h; sourceTree = "<group>"; };
-		2CAE25251C79EE8C00D268D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CAE252A1C79EE8D00D268D9 /* MWFineLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWFineLineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CAE252F1C79EE8D00D268D9 /* MWFineLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWFineLineTests.swift; sourceTree = "<group>"; };
-		2CAE25311C79EE8D00D268D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAE253A1C79EE9C00D268D9 /* MWFineLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWFineLine.swift; sourceTree = "<group>"; };
+		2CAE25401C79FBDC00D268D9 /* MWFineLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWFineLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAE25421C79FBDC00D268D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CAE25441C79FBDC00D268D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CAE25471C79FBDC00D268D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CAE25491C79FBDC00D268D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CAE254C1C79FBDC00D268D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CAE254E1C79FBDC00D268D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAE25531C7A0A3500D268D9 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		2CAE25541C7A0A3500D268D9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2CAE25551C7A0A3500D268D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CAE251C1C79EE8C00D268D9 /* Frameworks */ = {
+		2CAE253D1C79FBDC00D268D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CAE25271C79EE8D00D268D9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CAE252B1C79EE8D00D268D9 /* MWFineLine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +46,11 @@
 		2CAE25161C79EE8C00D268D9 = {
 			isa = PBXGroup;
 			children = (
+				2CAE25531C7A0A3500D268D9 /* .travis.yml */,
+				2CAE25541C7A0A3500D268D9 /* LICENSE */,
+				2CAE25551C7A0A3500D268D9 /* README.md */,
 				2CAE25221C79EE8C00D268D9 /* MWFineLine */,
-				2CAE252E1C79EE8D00D268D9 /* MWFineLineTests */,
+				2CAE25411C79FBDC00D268D9 /* MWFineLineDemo */,
 				2CAE25211C79EE8C00D268D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,8 +58,7 @@
 		2CAE25211C79EE8C00D268D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CAE25201C79EE8C00D268D9 /* MWFineLine.framework */,
-				2CAE252A1C79EE8D00D268D9 /* MWFineLineTests.xctest */,
+				2CAE25401C79FBDC00D268D9 /* MWFineLineDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,69 +66,43 @@
 		2CAE25221C79EE8C00D268D9 /* MWFineLine */ = {
 			isa = PBXGroup;
 			children = (
-				2CAE25231C79EE8C00D268D9 /* MWFineLine.h */,
-				2CAE25251C79EE8C00D268D9 /* Info.plist */,
+				2CAE253A1C79EE9C00D268D9 /* MWFineLine.swift */,
 			);
 			path = MWFineLine;
 			sourceTree = "<group>";
 		};
-		2CAE252E1C79EE8D00D268D9 /* MWFineLineTests */ = {
+		2CAE25411C79FBDC00D268D9 /* MWFineLineDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2CAE252F1C79EE8D00D268D9 /* MWFineLineTests.swift */,
-				2CAE25311C79EE8D00D268D9 /* Info.plist */,
+				2CAE25421C79FBDC00D268D9 /* AppDelegate.swift */,
+				2CAE25441C79FBDC00D268D9 /* ViewController.swift */,
+				2CAE25461C79FBDC00D268D9 /* Main.storyboard */,
+				2CAE25491C79FBDC00D268D9 /* Assets.xcassets */,
+				2CAE254B1C79FBDC00D268D9 /* LaunchScreen.storyboard */,
+				2CAE254E1C79FBDC00D268D9 /* Info.plist */,
 			);
-			path = MWFineLineTests;
+			path = MWFineLineDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		2CAE251D1C79EE8C00D268D9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		2CAE251F1C79EE8C00D268D9 /* MWFineLine */ = {
+		2CAE253F1C79FBDC00D268D9 /* MWFineLineDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CAE25341C79EE8D00D268D9 /* Build configuration list for PBXNativeTarget "MWFineLine" */;
+			buildConfigurationList = 2CAE254F1C79FBDC00D268D9 /* Build configuration list for PBXNativeTarget "MWFineLineDemo" */;
 			buildPhases = (
-				2CAE251B1C79EE8C00D268D9 /* Sources */,
-				2CAE251C1C79EE8C00D268D9 /* Frameworks */,
-				2CAE251D1C79EE8C00D268D9 /* Headers */,
-				2CAE251E1C79EE8C00D268D9 /* Resources */,
+				2CAE253C1C79FBDC00D268D9 /* Sources */,
+				2CAE253D1C79FBDC00D268D9 /* Frameworks */,
+				2CAE253E1C79FBDC00D268D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MWFineLine;
-			productName = MWFineLine;
-			productReference = 2CAE25201C79EE8C00D268D9 /* MWFineLine.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2CAE25291C79EE8D00D268D9 /* MWFineLineTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2CAE25371C79EE8D00D268D9 /* Build configuration list for PBXNativeTarget "MWFineLineTests" */;
-			buildPhases = (
-				2CAE25261C79EE8D00D268D9 /* Sources */,
-				2CAE25271C79EE8D00D268D9 /* Frameworks */,
-				2CAE25281C79EE8D00D268D9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2CAE252D1C79EE8D00D268D9 /* PBXTargetDependency */,
-			);
-			name = MWFineLineTests;
-			productName = MWFineLineTests;
-			productReference = 2CAE252A1C79EE8D00D268D9 /* MWFineLineTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = MWFineLineDemo;
+			productName = MWFineLineDemo;
+			productReference = 2CAE25401C79FBDC00D268D9 /* MWFineLineDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -145,10 +114,7 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Mark Woollard";
 				TargetAttributes = {
-					2CAE251F1C79EE8C00D268D9 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					2CAE25291C79EE8D00D268D9 = {
+					2CAE253F1C79FBDC00D268D9 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -159,61 +125,65 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2CAE25161C79EE8C00D268D9;
 			productRefGroup = 2CAE25211C79EE8C00D268D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CAE251F1C79EE8C00D268D9 /* MWFineLine */,
-				2CAE25291C79EE8D00D268D9 /* MWFineLineTests */,
+				2CAE253F1C79FBDC00D268D9 /* MWFineLineDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CAE251E1C79EE8C00D268D9 /* Resources */ = {
+		2CAE253E1C79FBDC00D268D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CAE25281C79EE8D00D268D9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2CAE254D1C79FBDC00D268D9 /* LaunchScreen.storyboard in Resources */,
+				2CAE254A1C79FBDC00D268D9 /* Assets.xcassets in Resources */,
+				2CAE25561C7A0A3500D268D9 /* .travis.yml in Resources */,
+				2CAE25481C79FBDC00D268D9 /* Main.storyboard in Resources */,
+				2CAE25571C7A0A3500D268D9 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CAE251B1C79EE8C00D268D9 /* Sources */ = {
+		2CAE253C1C79FBDC00D268D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CAE25241C79EE8C00D268D9 /* MWFineLine.h in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2CAE25261C79EE8D00D268D9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CAE25301C79EE8D00D268D9 /* MWFineLineTests.swift in Sources */,
+				2CAE25451C79FBDC00D268D9 /* ViewController.swift in Sources */,
+				2CAE25431C79FBDC00D268D9 /* AppDelegate.swift in Sources */,
+				2CAE25581C7A0A3500D268D9 /* README.md in Sources */,
+				2CAE25521C79FC0200D268D9 /* MWFineLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2CAE252D1C79EE8D00D268D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CAE251F1C79EE8C00D268D9 /* MWFineLine */;
-			targetProxy = 2CAE252C1C79EE8D00D268D9 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		2CAE25461C79FBDC00D268D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAE25471C79FBDC00D268D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+		2CAE254B1C79FBDC00D268D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAE254C1C79FBDC00D268D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2CAE25321C79EE8D00D268D9 /* Debug */ = {
@@ -305,54 +275,24 @@
 			};
 			name = Release;
 		};
-		2CAE25351C79EE8D00D268D9 /* Debug */ = {
+		2CAE25501C79FBDC00D268D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MWFineLine/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.MWFineLine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		2CAE25361C79EE8D00D268D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MWFineLine/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.MWFineLine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2CAE25381C79EE8D00D268D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MWFineLineTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.MWFineLineTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MWFineLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.MWFineLineDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2CAE25391C79EE8D00D268D9 /* Release */ = {
+		2CAE25511C79FBDC00D268D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MWFineLineTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.MWFineLineTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MWFineLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwoollard.MWFineLineDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -369,19 +309,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CAE25341C79EE8D00D268D9 /* Build configuration list for PBXNativeTarget "MWFineLine" */ = {
+		2CAE254F1C79FBDC00D268D9 /* Build configuration list for PBXNativeTarget "MWFineLineDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CAE25351C79EE8D00D268D9 /* Debug */,
-				2CAE25361C79EE8D00D268D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2CAE25371C79EE8D00D268D9 /* Build configuration list for PBXNativeTarget "MWFineLineTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2CAE25381C79EE8D00D268D9 /* Debug */,
-				2CAE25391C79EE8D00D268D9 /* Release */,
+				2CAE25501C79FBDC00D268D9 /* Debug */,
+				2CAE25511C79FBDC00D268D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
