@@ -7,8 +7,7 @@ But for a simpler life here is a simple control, **MWFineLine**, that encapsulat
 
 The following image shows the demo app running on iPhone 6+ @3x screen, the layout and line widths being achieved completely from within a Storyboard edited in Interface Builder.
 ## iPhone 6+ screenshot
-![
-](file:MWFineLineDemo.png)
+![Screenshot](MWFineLineDemo.png)
 
 ## Credits
 This library has been created by Mark Woollard and has been made available under the **MIT License**. Please see the `LICENSE` file for more information.
