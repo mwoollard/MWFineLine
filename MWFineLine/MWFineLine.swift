@@ -45,7 +45,16 @@ public class MWFineLine : UIView {
     }
     
     override public func intrinsicContentSize() -> CGSize {
-        let fineLine:CGFloat = self.inInterfaceBuilder ? 1.0 : 1.0 / self.traitCollection.displayScale
+        // Get scale, but if not attached to a window will be zero in which case
+        // use scale of main screen. Should get traitCollectionDidChange called when
+        // there is a change, for example as attached to a window.
+        var scale = self.traitCollection.displayScale
+        if scale == 0.0 {
+            scale = UIScreen.mainScreen().scale
+        }
+        
+        let fineLine:CGFloat = self.inInterfaceBuilder ? 1.0 : 1.0 / scale
+
         if self.isHorizontal {
             return CGSizeMake(UIViewNoIntrinsicMetric, fineLine)
         } else {
